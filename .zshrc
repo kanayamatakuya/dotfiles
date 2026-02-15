@@ -1,5 +1,6 @@
 # starship
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 # antidote
 zsh_plugins_txt="$HOME/.zsh_plugins.txt"
@@ -19,4 +20,5 @@ alias ls="eza --icons --group-directories-first"
 alias ll="eza -lh --icons --git --group-directories-first"
 alias la="eza -lha --icons --git --group-directories-first"
 alias top="btop"
+alias vim="nvim"
 

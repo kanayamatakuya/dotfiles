@@ -15,4 +15,8 @@ ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.zprofile ~/.zprofile
 ln -sf ~/dotfiles/.zsh_plugins.txt ~/.zsh_plugins.txt
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.wezterm.lua ~/.wezterm.lua
+ln -sf ~/dotfiles/keybinds.lua ~/keybinds.lua
+
+ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
 

@@ -12,6 +12,9 @@ brew "ripgrep"
 brew "btop"
 brew "fastfetch"
 
-cask "wezterm"
+brew "uv"
+
 cask "font-hack-nerd-font"
+cask "wezterm@nightly"
+cask "raycast"
 
