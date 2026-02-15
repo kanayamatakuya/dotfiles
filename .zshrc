@@ -13,3 +13,10 @@ if [[ -f "/opt/homebrew/opt/antidote/share/antidote/antidote.zsh" ]]; then
   source "$zsh_plugins_sh"
 fi
 
+# Alias
+alias cat="bat --style=plain --paging=never"
+alias ls="eza --icons --group-directories-first"
+alias ll="eza -lh --icons --git --group-directories-first"
+alias la="eza -lha --icons --git --group-directories-first"
+alias top="btop"
+
