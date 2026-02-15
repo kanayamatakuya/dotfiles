@@ -8,7 +8,7 @@ if ! command -v brew &> /dev/null; then
 fi
 
 # Install packages
-brew bundle --files=./Brewfile
+brew bundle --file=./Brewfile
 
 # Symbolic link
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
