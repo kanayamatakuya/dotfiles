@@ -1,6 +1,6 @@
 format = """
 $directory\
-[ ](fg:#88C0D0 bg:#1d2230)\
+[ ](fg:#88c0d0 bg:#1d2230)\
 $git_branch\
 $git_status\
 [ ](fg:#1d2230)\

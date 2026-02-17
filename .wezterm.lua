@@ -5,10 +5,11 @@ local config = wezterm.config_builder()
 -- config.keys = require("keybinds").keys
 -- config.key_tables = require("keybinds").key_tables
 
+config.color_scheme = 'Everforest Dark Hard (Gogh)'
 config.automatically_reload_config = true
 config.font_size = 13.0
 config.use_ime = true
-config.window_background_opacity = 0.6
+config.window_background_opacity = 0.7
 config.macos_window_background_blur = 5
 config.window_decorations = "RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
